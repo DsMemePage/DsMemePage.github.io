@@ -23,35 +23,43 @@ a {
   <h1>Welcome to D's Meme Page, The Land of Stolen Memes</h1>
   <table width="250" height="51" border="1">
     <tr>
-      <td height="47"><div align="center"><a href="index.html">Home</a> | <a href="About The Author.html">About The Author</a> | <a href="Memes.html"> Memes</a> | Poll</div></td>
+      <td height="47"><div align="center"><a href="index.html">Home</a> | <a href="About The Author.html">About The Page</a> | <a href="Memes.html"> Memes</a> | Poll</div></td>
     </tr>
   </table>
-  <form id="form1" name="form1" method="post" action="">
+  <form action="mailto:dylanfrantz17@gmail.com">
     <br />
     <table width="25%" border="1">
       <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
+        <td><div align="right">Name</div></td>
+        <td><label for="Name"></label>
+        <input type="text" name="Name" id="Name" /></td>
       </tr>
       <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
+        <td><div align="right">Email</div></td>
+        <td><label for="Email"></label>
+        <input type="text" name="Email" id="Email" /></td>
       </tr>
       <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
+        <td><div align="right">Meme Suggestions</div></td>
+        <td><label for="Suggestions"></label>
+        <textarea name="Suggestions" rows="3" id="Suggestions"></textarea></td>
       </tr>
       <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
+        <td><div align="right">Comments</div></td>
+        <td><label for="textarea"></label>
+        <textarea name="textarea" id="textarea" cols="45" rows="5"></textarea></td>
       </tr>
       <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
+        <td><div align="right">Rating<br />
+          (1-10)</div></td>
+        <td><label for="Rating"></label>
+        <input name="Rating" type="text" id="Rating" size="2" maxlength="2" /></td>
       </tr>
       <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
+        <td><div align="right">
+          <input type="reset" name="Reset" id="Reset" value="Reset" />
+        </div></td>
+        <td><input type="submit" name="Submit" id="Submit" value="Submit" /></td>
       </tr>
     </table>
   </form>
